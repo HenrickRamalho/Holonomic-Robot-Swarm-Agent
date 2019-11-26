@@ -14,6 +14,8 @@ To build this project, you must purchase the following bill of materials:
 
 3 x Motor N20 6Vdc 90RPM and Encoder   
 
+Print attached stl files
+
 ### Motor Speed Controller
 
 The speed control of motors of a mobile robot is extremely important for the accomplishment of a good robotics project. This project involves the construction of a microcontrolled circuit for the speed control of each holonomic robot wheel, generating better performance of the position of the autonomous agent and the displacement controller.
