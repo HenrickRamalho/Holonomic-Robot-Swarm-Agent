@@ -12,7 +12,16 @@ To build this project, you must purchase the following bill of materials:
 
 3 x Power Banck Pack for 2 Battery 18650
 
-3 x Motor N20 6Vdc 90RPM and Encoder     
+3 x Motor N20 6Vdc 90RPM and Encoder   
+
+### Motor Speed Controller
+
+The speed control of the motors of a mobile robot is extremely important for the realization of a good robotics project. 
+This project involves the construction of a microcontolled circuit for the speed control of each wheel of the holonomic 
+robot, a better poerformace of the autonomous agent position and displacement controller.
+
+![speed controller schematic circuit](https://user-images.githubusercontent.com/47896432/69635453-2f3b1880-1033-11ea-9a1e-fcc95ed6bbb1.jpg)
+
 
 ### Prerequisites
 
