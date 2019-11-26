@@ -10,7 +10,7 @@ To build this project, you must purchase the following bill of materials:
 
 3 x Wheel Omni 1.5Pol
 
-2 x Power Banck Pack for 2 Battery 18650
+3 x Power Banck Pack for 2 Battery 18650
 
 3 x Motor N20 6Vdc 90RPM and Encoder     
 
