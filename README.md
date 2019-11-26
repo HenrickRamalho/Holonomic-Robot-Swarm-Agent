@@ -20,7 +20,7 @@ The speed control of the motors of a mobile robot is extremely important for the
 This project involves the construction of a microcontolled circuit for the speed control of each wheel of the holonomic 
 robot, a better poerformace of the autonomous agent position and displacement controller.
 
-![image](https://user-images.githubusercontent.com/47896432/69636004-6cec7100-1034-11ea-8ccb-9d76d612fef5.png)
+![image](https://user-images.githubusercontent.com/47896432/69636087-960d0180-1034-11ea-8bb1-3d7b35755a7c.png)
 
 ![speed controller schematic circuit](https://user-images.githubusercontent.com/47896432/69635453-2f3b1880-1033-11ea-9a1e-fcc95ed6bbb1.jpg)
 
