@@ -16,7 +16,7 @@ To build this project, you must purchase the following bill of materials:
 
 ### Motor Speed Controller
 
-![image](https://user-images.githubusercontent.com/47896432/69636087-960d0180-1034-11ea-8bb1-3d7b35755a7c.png) ![PCB_Vel_Cont](https://user-images.githubusercontent.com/47896432/69636789-2566e480-1036-11ea-9991-531925742762.png)
+![image](https://user-images.githubusercontent.com/47896432/69636087-960d0180-1034-11ea-8bb1-3d7b35755a7c.png) ![image](https://user-images.githubusercontent.com/47896432/69636883-55ae8300-1036-11ea-84c4-5d925c8b5ff6.png)
 
 The speed control of the motors of a mobile robot is extremely important for the realization of a good robotics project. 
 This project involves the construction of a microcontolled circuit for the speed control of each wheel of the holonomic 
