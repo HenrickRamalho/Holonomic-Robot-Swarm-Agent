@@ -18,7 +18,7 @@ To build this project, you must purchase the following bill of materials:
 
 The speed control of motors of a mobile robot is extremely important for the accomplishment of a good robotics project. This project involves the construction of a microcontrolled circuit for the speed control of each holonomic robot wheel, generating better performance of the position of the autonomous agent and the displacement controller.
 
-![image](https://user-images.githubusercontent.com/47896432/69638067-bc34a080-1038-11ea-9347-7fd7290f955a.png) ![image](https://user-images.githubusercontent.com/47896432/69638113-d8d0d880-1038-11ea-9b83-531e9f89602f.png)
+   ![image](https://user-images.githubusercontent.com/47896432/69638067-bc34a080-1038-11ea-9347-7fd7290f955a.png) ![image](https://user-images.githubusercontent.com/47896432/69638113-d8d0d880-1038-11ea-9b83-531e9f89602f.png)
 
 ![speed controller schematic circuit](https://user-images.githubusercontent.com/47896432/69635453-2f3b1880-1033-11ea-9a1e-fcc95ed6bbb1.jpg)
 
