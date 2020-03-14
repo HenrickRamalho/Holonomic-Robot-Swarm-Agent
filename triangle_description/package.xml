@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>triangle_description</name>
+  <version>0.0.1</version>
+  <description>
+    Triangle robot description.
+  </description>
+
+  <maintainer email="borgesjvt@gmail.com">João Victor T. Borges</maintainer>
+
+  <license>CLOSED</license>
+
+  <author email="borgesjvt@gmail.com">BorgesJVT</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>h4r_rapid_robot_xacros</exec_depend>
+
+  <export></export>
+</package>

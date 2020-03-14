@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!--
+    A simple triangular robot with holonomic drive.
+-->
+<robot name="triangle" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<xacro:include filename="$(find triangle_description)/def/rim.urdf.xacro"/>
+
+	<link name="base_link">
+
+	<inertial>
+
+		<mass value="0.07862944645"/>
+		<inertia
+			ixx="0.00002035985530754"
+			ixy="0"
+			ixz="0"
+			iyy="0.00002035985530754"
+			iyz="0"
+			izz="0.00003945961663220"
+		/>
+
+	</inertial>
+	<visual>
+
+		<geometry>
+
+			<mesh filename="package://triangle_description/mesh/base.stl" scale="0.001 0.001 0.001"/>
+
+		</geometry>
+		<material name="base_material">
+            <!-- lanvender -->
+			<color rgba="0.9 0.9 0.98 1"/>
+
+		</material>
+
+	</visual>
+	<collision>
+
+		<geometry>
+
+			<mesh filename="package://triangle_description/mesh/base.stl" scale="0.001 0.001 0.001"/>
+
+		</geometry>
+
+	</collision>
+
+	</link>
+
+	<xacro:rim_macro
+		name="left"
+		color="0.3 0 0"
+		xyz="-0.0563 0.0325 0"
+		rpy="1.570796326794896 0 1.047197551196597"
+	/>
+	<xacro:rim_macro
+		name="back"
+		color="0 0.3 0"
+		xyz="0 -0.065 0"
+		rpy="1.570796326794896 0 3.141592653589793"
+	/>
+	<xacro:rim_macro
+		name="right"
+		color="0 0 0.3"
+		xyz="0.0563 0.0325 0"
+		rpy="1.570796326794896 0 -1.047197551196597"
+	/>
+
+    <gazebo reference="base_link">
+        <material>Gazebo/WhiteGlow</material>
+        <selfCollide>false</selfCollide>
+    </gazebo>
+
+    <gazebo reference="rim_left_link">
+        <material>Gazebo/Red</material>
+        <selfCollide>false</selfCollide>
+    </gazebo>
+
+    <gazebo reference="rim_back_link">
+        <material>Gazebo/Green</material>
+        <selfCollide>false</selfCollide>
+    </gazebo>
+
+    <gazebo reference="rim_right_link">
+        <material>Gazebo/Blue</material>
+        <selfCollide>false</selfCollide>
+    </gazebo>
+
+	<gazebo>
+<!--
+	  <plugin name="gazebo_ros_control" filename="libgazebo_ros_omni_drive.so">
+          <updateRate>10.0</updateRate>
+          <robotBaseFrame>base_link</robotBaseFrame>
+          <mobileRadius>0.06</mobileRadius>
+          <wheelDiameter>0.038</wheelDiameter>
+          <torque>0.005</torque>
+          <leftWheelJoint>rim_left_joint</leftWheelJoint>
+          <backWheelJoint>rim_back_joint</backWheelJoint>
+          <rightWheelJoint>rim_right_joint</rightWheelJoint>
+          <topicName>cmd_vel</topicName>
+          <commandTopic>cmd_vel</commandTopic>
+          <broadcastTF>true</broadcastTF>
+          <odometryTopic>odom</odometryTopic>
+          <odometryFrame>odom</odometryFrame>
+          <covariance_x>0.000100</covariance_x>
+          <covariance_y>0.000100</covariance_y>
+          <covariance_yaw>0.010000</covariance_yaw>
+
+	  </plugin>
+-->
+	</gazebo>
+
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/triangle</robotNamespace>
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+        </plugin>
+    </gazebo>
+
+</robot>
