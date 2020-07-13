@@ -1,4 +1,4 @@
-# HasB - Holonomic Agent for Swarm Robots
+# Omnino - Holonomic Agent for Swarm Robots
 
 ![image](https://user-images.githubusercontent.com/47896432/69591761-7644f180-0fd2-11ea-8545-e1afa4664098.png) ![image](https://user-images.githubusercontent.com/47896432/69591763-78a74b80-0fd2-11ea-831c-186e90600dcc.png)
 
